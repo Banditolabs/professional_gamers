@@ -1,24 +1,18 @@
-# README
+# Professiona Gamers README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Professional Gamers is a place where professionals/parents with little time for the favorite hobby can share their gaming sessions for everyone's benefit.
 
-Things you may want to cover:
+## Technologies Used
+*Ruby v3.1.2
+*CSS/A Framework of some kind
+*HAML
+*Rails v7.0.3.1
 
-* Ruby version
+## Screenshots
+![Wireframes] (storage/Assets/Wireframes.png)
 
-* System dependencies
+## Getting started
+Links to deployment will go here
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Future Enhancements
+Currently Unknown
