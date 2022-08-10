@@ -1,7 +1,8 @@
-%h1= @post.title
-%p= @post.body
+#post_content
+    %h1= @post.title
+    %p= @post.body
 
-= link_to "Edit", edit_post_path(@post)
--# Note that you must put the data on a single line. Line break curly brackets doesn't work.
-= link_to "Delete", post_path(@post), data: {turbo_method: :delete, turbo_confirm: "Are you sure you want to do this?" }
-= link_to "Home", root_path
+    = link_to "Edit", edit_post_path(@post)
+    -# Note that you must put the data on a single line. Line break curly brackets doesn't work.
+    = link_to "Delete", post_path(@post), data: {turbo_method: :delete, turbo_confirm: "Are you sure you want to do this?" }
+    = link_to "Home", root_path

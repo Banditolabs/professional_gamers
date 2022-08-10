@@ -11,11 +11,15 @@
   %link{:href => "https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap", :rel => "stylesheet"}/
 %body
   %header.main_header.clearfix
-    .wrapper 
+    .wrapper
       #logo 
-        %p Professional Gamers
+        %p= link_to "Professional Gamers", root_path
       #buttons 
-        = link_to "New Post", new_post_path
+        - if user_signed_in?
+          = link_to "New Post", new_post_path
+        -else
+          =link_to "Sign Up",new_user_registration_path
+          =link_to "Sign In",new_user_session_path
   .wrapper
     %p.notice= notice
     %p.alert=alert

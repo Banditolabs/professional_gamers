@@ -30,6 +30,10 @@ body {
     margin: 0 auto;
     background-color: white;
 }
+.main_header a {
+    text-decoration: none;
+    color: #DC191B;
+}
 #logo {
     float: left;
     text-transform: uppercase;
@@ -82,4 +86,10 @@ body {
     margin: .25rem;
     font-size: .9rem;
     color: #6f5e5c;
+}
+
+#post_content {
+    background-color: white;
+    padding: 2em 5%;
+    border-radius: .5em;
 }
