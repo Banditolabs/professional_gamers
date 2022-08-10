@@ -73,4 +73,4 @@ end
 gem 'haml', '~> 5.2', '>= 5.2.2'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'devise', '~> 4.4', '>= 4.4.3'
-
+gem 'normalize-rails', '~> 4.1', '>= 4.1.1'

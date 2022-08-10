@@ -1,6 +1,6 @@
-%h1 We are live people!
-- @posts.each do |post|
-    %h2= link_to post.title, post
-    %p= post.body
-
-= link_to "New Post", new_post_path
+#posts
+    %h1 We are live people!
+    - @posts.each do |post|
+        .post
+            %h2.title= link_to post.title, post
+            %p.content= post.body
