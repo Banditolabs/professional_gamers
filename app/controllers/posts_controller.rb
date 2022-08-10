@@ -32,7 +32,8 @@ class PostsController < ApplicationController
     end
     def destroy
             @post.destroy
-            redirect_to root_path, status: :see_other
+            # status: see_other is a workaround 
+            redirect_to root_path, status: :see_other 
     end
 
     private
