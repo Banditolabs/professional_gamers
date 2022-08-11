@@ -1,0 +1,3 @@
+= form_with(model: [post, post.comments.build]) do |f|
+    =f.rich_text_area :comment
+    =f.submit "Reply"

@@ -20,6 +20,7 @@ class PostsController < ApplicationController
     # Otherwise we'd have a find function in each method.
     def show
 
+        @comments= @post.comments
     end
     def edit
 

@@ -93,3 +93,8 @@ body {
     padding: 2em 5%;
     border-radius: .5em;
 }
+.comment {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
