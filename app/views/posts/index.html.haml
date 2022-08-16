@@ -1,6 +1,12 @@
 #posts
-    %h1 We are live people!
+    %h1 For busy adults who wish they could game more.
     - @posts.each do |post|
         .post
             %h2.title= link_to post.title, post
             %p.content= post.body.truncate_words(27, separator:' ')
+    #pagination 
+        #buttons 
+            =link_to "Previous Page", posts_path(page: @page -1)
+        #buttons
+            =link_to "Next Page", posts_path(page: @page +1)
+        
