@@ -1,3 +1,5 @@
-%h1 This is where we can create a new Post.
-
-= render 'form'
+#posts 
+    %h1 This is where we can create a new Post.
+    .wrapper
+        = render 'form'
+        = link_to "Cancel", root_path

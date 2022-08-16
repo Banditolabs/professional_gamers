@@ -10,6 +10,17 @@
   %link{:crossorigin => "", :href => "https://fonts.gstatic.com", :rel => "preconnect"}/
   %link{:href => "https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap", :rel => "stylesheet"}/
 %body
+  .scrolling-image-container
+    .scrolling-image
+      .grid
+        .x1
+        .x2
+        .x3
+        .x4
+        .x5
+        .x6
+        .x7
+        .x8
   %header.main_header.clearfix
     .wrapper
       #logo 
@@ -23,7 +34,7 @@
   .wrapper
     %p.notice= notice
     %p.alert=alert
-
-  .wrapper
-    =yield
+  .absolute
+    .wrapper
+      =yield
 

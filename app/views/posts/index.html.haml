@@ -3,4 +3,4 @@
     - @posts.each do |post|
         .post
             %h2.title= link_to post.title, post
-            %p.content= post.body
+            %p.content= post.body.truncate_words(27, separator:' ')

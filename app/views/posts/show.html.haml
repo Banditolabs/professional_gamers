@@ -1,13 +1,13 @@
 #post_content
-    = link_to "Home", root_path
     %h1= @post.title
-    %p= @post.body
-
+    %hr
+    .body_container
+        %p= @post.body
     #post_controls
-        = link_to "Edit", edit_post_path(@post)
+        = link_to "Edit", edit_post_path(@post), class: "buttons"
         -# Note that you must put the data on a single line. Line break curly brackets doesn't work.
-        = link_to "Delete", post_path(@post), data: {turbo_method: :delete, turbo_confirm: "Are you sure you want to do this?" }
-        
+        = link_to "Delete", post_path(@post), class: "buttons", data: {turbo_method: :delete, turbo_confirm: "Are you sure you want to do this?" }
+        = link_to "Home", root_path, class: "buttons"
     #comments 
         %h3 Reply to thread
         = render "comments/form", post: @post
