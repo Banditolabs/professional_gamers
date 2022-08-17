@@ -4,9 +4,11 @@
         .post
             %h2.title= link_to post.title, post
             %p.content= post.body.truncate_words(27, separator:' ')
-    #pagination 
-        #buttons 
-            =link_to "Previous Page", posts_path(page: @page -1)
+    #pagination
+        -if @page > 0
+            #buttons 
+                =link_to "Previous Page", posts_path(page: @page -1)
+        
         #buttons
             =link_to "Next Page", posts_path(page: @page +1)
         

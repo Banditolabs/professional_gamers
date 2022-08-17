@@ -158,6 +158,9 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
+h1 {
+  color: #DC191B;
+}
 
 .main_header {
     width: 100%;
@@ -209,6 +212,7 @@ body {
     display: table;
     clear: both;
 }
+
 #posts {
     background-color: white;
     padding: 2em 5%;
@@ -233,6 +237,7 @@ body {
     border: 1px solid #6f5e5c;
     margin-bottom: 2em;
 }
+
 .content {
     margin: .25rem;
     font-size: .9rem;
