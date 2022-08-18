@@ -3,11 +3,11 @@
 Professional Gamers is a place where professionals/parents with little time for the favorite hobby can share their gaming sessions for everyone's benefit.
 
 ## Technologies Used
-| ----------- |
-| Ruby v3.1.2 |
-| CSS/A Framework of some kind |
-| HAML |
-| Rails v7.0.3.1 |
+
+- Ruby v3.1.2 
+- CSS/A Framework of some kind 
+- HAML 
+- Rails v7.0.3.1 
 
 
 ## Screenshots
