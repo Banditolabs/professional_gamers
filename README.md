@@ -12,7 +12,7 @@ Professional Gamers is a place where professionals/parents with little time for 
 
 ## Screenshots
 ![Wireframes](./wireframes.png)
-<img src="https://imgur.com/T52YHkm" />
+![ERD](./erd.png)
 
 ## Getting started
 [Live Link](https://professional-gamers.herokuapp.com)
