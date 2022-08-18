@@ -9,7 +9,7 @@ Professional Gamers is a place where professionals/parents with little time for 
 *Rails v7.0.3.1
 
 ## Screenshots
-![Wireframes] (storage/Assets/Wireframes.png)
+![Wireframes] (https://imgur.com/T52YHkm)
 
 ## Getting started
 Links to deployment will go here

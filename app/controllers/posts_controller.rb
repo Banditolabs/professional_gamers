@@ -3,6 +3,7 @@ class PostsController < ApplicationController
     before_action :authenticate_user!, except: [:index, :show]
     POSTS_PER_PAGE = 7
     def index
+        # add a total post count
         @page = params.fetch(:page, 0).to_i
         @posts = Post.offset(@page * POSTS_PER_PAGE).limit(POSTS_PER_PAGE)
     end
