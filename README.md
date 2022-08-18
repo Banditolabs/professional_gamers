@@ -13,7 +13,11 @@ Professional Gamers is a place where professionals/parents with little time for 
 ## Screenshots
 ![Wireframes](./wireframes.png)
 ![ERD](./erd.png)
-
+![Authentication](./authentication.png)
+![Edit Page](./edit_page.png)
+![New Page](./new_page.png)
+![Index Page](./index.png)
+![Show PAge](./show_page.png)
 ## Getting started
 [Live Link](https://professional-gamers.herokuapp.com)
 ## Future Enhancements
