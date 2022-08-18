@@ -11,6 +11,7 @@ Professional Gamers is a place where professionals/parents with little time for 
 
 
 ## Screenshots
+![Wireframes](./wireframes.png)
 <img src="https://imgur.com/T52YHkm" />
 
 ## Getting started
