@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: Postgres
+  database: professional_gamers
   pool: 5
   username: joshuagoss
   password:
@@ -47,7 +47,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: myapp_test
+  database: professional_gamers
   pool: 5
   username: joshuagoss
   password:
