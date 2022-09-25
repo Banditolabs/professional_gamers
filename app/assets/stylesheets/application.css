@@ -289,10 +289,14 @@ input.string {
 }
 
 textarea.text {
-    display: block;
-    height: 100px;
+
+    display:flex;
+    text-align: center;
+    font-size: 25px;
+    resize: none;
+    height: 75px;
     padding: 6px 16px;
-    width: 100%;
+    width: 50%;
     border: 1px solid black;
     border-radius: .5em;
     background-color: #edede9
