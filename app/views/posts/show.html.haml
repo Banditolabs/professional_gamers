@@ -5,9 +5,10 @@
         %p= @post.body
     #post_controls
         - if user_signed_in?
-            = link_to "Edit", edit_post_path(@post), class: "buttons"
-            -# Note that you must put the data on a single line. Line break curly brackets doesn't work.
-            = link_to "Delete", post_path(@post), class: "buttons", data: {turbo_method: :delete, turbo_confirm: "Are you sure you want to do this?" }
+            - if @post.user_id == current_user.id
+                = link_to "Edit", edit_post_path(@post), class: "buttons"
+                -# Note that you must put the data on a single line. Line break curly brackets doesn't work.
+                = link_to "Delete", post_path(@post), class: "buttons", data: {turbo_method: :delete, turbo_confirm: "Are you sure you want to do this?" }
         = link_to "Home", root_path, class: "buttons"
     #comments 
         %h3 Reply to thread

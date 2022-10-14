@@ -7,6 +7,7 @@ class PostsController < ApplicationController
         @page = params.fetch(:page, 0).to_i
         @posts = Post.offset(@page * POSTS_PER_PAGE).limit(POSTS_PER_PAGE)
     end
+
     def new
         @post = current_user.posts.build
     end
@@ -22,11 +23,10 @@ class PostsController < ApplicationController
     # Before_action is being used so that we keep our code DRY.
     # Otherwise we'd have a find function in each method.
     def show
-
-        @comments= @post.comments
+         @comments= @post.comments
     end
-    def edit
 
+    def edit
     end
     def update
         if @post.update(post_params)
@@ -44,9 +44,11 @@ class PostsController < ApplicationController
     private
 
     def post_params
-    params.require(:post).permit(:title, :body)
-    end
+        params.require(:post).permit(:title, :body)
+        end
+
     def find_post
         @post = Post.find(params[:id])
     end
+
 end
